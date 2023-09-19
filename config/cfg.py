@@ -1,0 +1,5 @@
+OPENAI_MODEL = "gpt-3.5-turbo"
+EMBEDDING_MODEL = "sentence-transformers/all-mpnet-base-v2"
+QDRANT_HOST = "https://ec8f3f83-e3a7-44ec-8070-57e338c9fd9b.us-east-1-0.aws.cloud.qdrant.io:6333"
+QDRANT_API_KEY = "o1RqNREFrSYklW8YxQzD2aW-mNvsJ78-Q1AndGlregIQMjkJyIhsNQ"
+OPENAI_API_KEY = "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"

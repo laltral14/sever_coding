@@ -5,6 +5,7 @@ from services.qdrant import QdrantSupplier
 from services.recommendation import get_prices, get_item_recommendations
 from services.search import search
 from test_data import data
+from test_rec_data import rec_data
 
 app = FastAPI()
 # тестовый пример
@@ -23,4 +24,4 @@ def prices(recommendation_request: Recommendation):
 
 @app.get("/items")
 def items(recommendation_request: Recommendation):
-    return get_item_recommendations(data, recommendation_request.user_id)
+    return get_item_recommendations(rec_data, recommendation_request.item_id)
